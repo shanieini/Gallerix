@@ -1,0 +1,7 @@
+.photo-list-container {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+    padding: 20px;
+}

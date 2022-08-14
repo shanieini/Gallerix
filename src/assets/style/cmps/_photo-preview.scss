@@ -1,0 +1,57 @@
+.card-container {
+    height: 200px;
+    width: 200px;
+
+    .card-img {
+        height: 100%;
+        width: 100%;
+        position: relative;
+
+        & .btn-delete {
+            display: none;
+            position: absolute;
+            top: 5px;
+            left: 170px;
+            font-size: 20px;
+
+            &:hover {
+                color: $color5;
+            }
+        }
+
+        &:hover {
+
+            .btn-delete {
+                display: flex;
+                animation: removeBtn .2s linear;
+                cursor: pointer;
+            }
+        }
+
+        .photo-wrapper {
+            object-fit: cover;
+            height: 200px;
+
+            img {
+                border-radius: 8px;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+
+
+        }
+    }
+}
+
+
+@keyframes removeBtn {
+    from {
+
+        opacity: 0;
+    }
+
+    to {
+        opacity: 10;
+    }
+}

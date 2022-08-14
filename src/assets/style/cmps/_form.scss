@@ -1,0 +1,23 @@
+label {
+    cursor: pointer;
+    color: black;
+    height: 60px;
+    width: 250px;
+    background-color: $color2;
+    position: absolute;
+    margin: auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 8px;
+
+    &:hover {
+        background-color: $color3;
+    }
+}
+
+input[type='file'] {
+    display: none;
+}

@@ -1,0 +1,17 @@
+// Setup
+@import '../style/setup/_variables.scss';
+
+// Basics
+@import '../style/basics/base.scss';
+
+// Pages
+@import '../style/pages/main-app.scss';
+
+// Cmps
+@import '../style/cmps/app-header.scss';
+@import '../style/cmps/photo-preview.scss';
+@import '../style/cmps/photo-list.scss';
+@import '../style/cmps/footer.scss';
+@import '../style/cmps/form.scss';
+@import '../style/cmps/gallery.scss';
+@import '../style/cmps/user-msg.scss';
